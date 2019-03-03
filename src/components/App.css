@@ -1,0 +1,24 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+.content {
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 550px) {
+  .content {
+    margin-top: 50px;
+  }
+}
